@@ -1,0 +1,69 @@
+# Vite build output
+/dist
+
+# Node modules
+/node_modules
+
+# Optional environment files
+.env
+.env.*.local
+.env.local
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS metadata
+Icon?
+._*
+
+# Linux-specific
+*~ 
+.nfs*
+
+# Editor-specific
+# VSCode
+.vscode/
+.history/
+
+# WebStorm / JetBrains
+.idea/
+*.iml
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: lockfiles if using a single manager only
+# Uncomment if you only use one and want to avoid clutter
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# Optional: coverage tools
+coverage/
+
+# Optional: test result snapshots
+*.snap
+
+# Optional: SASS/SCSS cache
+.sass-cache/
+
+# Optional: TypeScript cache
+*.tsbuildinfo
+
+# Optional: local dev SSL certs
+*.pem
+
+# Optional: Vite plugin cache (e.g., vite-plugin-checker)
+.vite/
+
+# System-wide backups and artefacts
+*.swp
+*.swo
+*.bak
+*.tmp
